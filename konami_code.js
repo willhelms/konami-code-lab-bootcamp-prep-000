@@ -12,7 +12,7 @@ const codes = [
 ];
 
 function init() {
-  document.body.addEventListener('keydown', onKeyDownHandler(event));
+  document.body.addEventListener('keydown', onKeyDownHandler);
 }
 
 // Keep track of index outside of the event handler.
